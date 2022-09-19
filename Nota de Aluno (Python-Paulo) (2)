@@ -1,0 +1,15 @@
+nome = input("Enter your name:");
+type(str)
+n1 = float(input("Note 1:"))
+n2 = float(input("Note 2:")) 
+n3 = float(input("Note 3:")) 
+n4 = float(input("Note 4:")) 
+media = (n1+n2+n3+n4)/4
+print("Média:" , media)
+if(media>=5):
+    print("APPROVED")
+else:
+    print("DISAPPROVED")
+
+
+
